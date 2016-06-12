@@ -1,0 +1,11 @@
+limpiar los tweets
+created_at":([^,]+),"f[^j]*[^\[]+([^}]+)
+
+recolectar datos
+([^,]+),\s([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^\s]+)
+recolectar todas las coordenadas
+
+(\D*\s+\D+\s+\d+\s+\d+:\d+:\d+\s\D\d+\s\d+),\s(\D\d+\D\d+),(\D\d+\D\d+),(\D*\d+\D\d+),(\D*\d+\D\d+),(\D*\d+\D\d+),(\D*\d+\D\d+),(\D*\d+\D\d+),(\D*\d+\D\d+)\s
+
+dividir en las partes los 
+(\D+)\s(\D+)\s(\d+)\s(\d+):(\d+):([^,]+),([^,]+),(\D\d\D\d+)\s

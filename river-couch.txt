@@ -1,0 +1,35 @@
+{"setting":{"index":{"number_of_shards":4,"number_of_replicas":3}}}
+
+,"mappings":{"dia":"string","hora":"string","coordenadas":{"latitud":"double",longitud:"double"}}
+
+
+curl -X PUT localhost:9200/_river/testindex2/_meta -d '{"type":"couchdb","couchdb":{"host":"localhost","port":5984,"db":"lotlan","filter":null},"index":{"index":"testindex","type":"coordenadas","bulk_size":"1000","bulk_timeout":"10ms"}}'
+
+
+,"mappings":{"dia":{"type":"string"},"hora":{"type":"string"},"coordenadas":{"properties":{"latitud":{"type":"double"},"longitud":{"type":"double"}}}}
+
+{
+  "coordenadas": {
+    "properties": {
+      "hora": {
+        "type": "string"
+      },
+      "_rev": {
+        "type": "string"
+      },
+      "coordenadas": {
+        "properties": {
+          "latitud": {
+            "type": "double"
+          },
+          "logitud": {
+            "type": "double"
+          }
+        }
+      },
+      "dia": {
+        "type": "string"
+      }
+    }
+  }
+}

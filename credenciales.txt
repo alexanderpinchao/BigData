@@ -1,0 +1,32 @@
+cosechaalexpin2015
+
+Consumer Key (API Key)	HkjiqFb3cx2NnyeuMIHcTR3RR
+Consumer Secret (API Secret)	NbtNgeZt9STDZCzJf9ayfR09Qf3CFLcun75fCFzMxiTBG6B2UI
+Access Token	731096320363114496-uIzxxfsUbP488HKJVKI6iF52WtDlIJO
+Access Token Secret	JjIxReJJz8h49UnvfuU8UEtygNDq0MmrJbo5J2kO32IVP
+
+
+
+cosechaAlexPin2016
+
+Consumer Key (API Key)	nZPXeBQmpn7lVh3k7RhfqdX9K
+Consumer Secret (API Secret)	uOsWTomsSntwHAz9vkXLcTASdmaW6yykWoxDQGSyT4yttlBLrx
+Access Token	731096320363114496-cWWceoZ0OpeaMPHYanzDSFLi4FDIWgW
+Access Token Secret	ENS0HkrqCrhaFZX56AJloTYFigsvmNCyBQxk83szFaPmo
+
+
+cosechaalexPin2017
+Consumer Key (API Key)	nkQT7GQJDAtchFtYi4kegpUO6
+Consumer Secret (API Secret) XM9reavwB2J5wsht04ctbxm0SgTeGYStvkQl4ZxTHbI1oQwQzx
+Access Token	731096320363114496-ROs2tqSrRfLnYYG1lFL31qPm3F6igCG
+Access Token Secret	N96A0QPoelY2xLXnTSSbP18dRXvAcmpN5W3gtIzGk4QNS
+
+
+cosechaalexPin2018
+Consumer Key (API Key)	P1qCE3FHQ8TWEIcXkWgpjFyzE
+Consumer Secret (API Secret)	Vz2b2hCYYDAnc6QgpOLd2iEbjqjtHZdQeksZT7qBhfQ8qsB4qo
+Access Token	731096320363114496-F5AO2abupHUHkeUtSMbgOsTKAqhhNDE
+Access Token Secret	C3exl5tN8A4UuGaZHOSsku6TGVdUucjdbJ5fECRAhwHMb
+
+
+

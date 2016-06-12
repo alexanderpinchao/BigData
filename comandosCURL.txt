@@ -1,0 +1,8 @@
+
+exportar una base de datos desde couchdb a un documento json
+*necesita la terminal posicionada en home
+curl -X GET http://127.0.0.1:5984/BaseDeDatos/_all_docs\?include_docs\=true > BaseDeDatos.json
+
+comando para replicar bases de datos
+curl -H 'Content-Type: application/json' -X POST http://localhost:5984/_replicate -d ' {"source": "http://127.0.0.1:5984/quito", "target": "https://couchdb-87ce75.smileupps.com/quito", "create_target": true, "continuous": true} '
+
