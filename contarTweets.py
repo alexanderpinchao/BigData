@@ -1,3 +1,5 @@
+#codigo creado por: Luis Sosa 
+#fecha: 10 de junio del 2016
 #archivo creado para contar el numero de tweets en un archivo json
 import re
 #abrimos el archivo json 
