@@ -1,3 +1,5 @@
+#codigo creado por: Alexander Pinchao 
+#fecha: 10 de junio del 2016
 #agregamos el paquete de expresiones regulares 
 import re
 #agregamos el paquete de manejo para couchdb
