@@ -1,3 +1,5 @@
+#codigo creado por: Alexander Pinchao 
+#fecha: 10 de junio del 2016
 #importamos el paquete de expresiones regulares 
 import re
 #abrimos el archivo de texto con los valores de coordenadas del boundongbox  y la fecha
