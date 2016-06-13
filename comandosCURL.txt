@@ -1,4 +1,5 @@
-
+#codigo creado por: Andrade Rodrigo
+#fecha: 10 de junio del 2016
 exportar una base de datos desde couchdb a un documento json
 *necesita la terminal posicionada en home
 curl -X GET http://127.0.0.1:5984/BaseDeDatos/_all_docs\?include_docs\=true > BaseDeDatos.json
