@@ -1,3 +1,6 @@
+#codigo creado por: Alexander Pinchao 
+#fecha: 10 de junio del 2016
+#Credenciales a ser usadas para permitir el ingreso a la API de Twitter
 cosechaalexpin2015
 
 Consumer Key (API Key)	HkjiqFb3cx2NnyeuMIHcTR3RR
