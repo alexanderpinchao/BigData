@@ -1,23 +1,12 @@
+
+BoundingBox correspondiente a la ciudad de Quito, este a sido dividido en 4, y cada parte a sido asignada a cada miembro del equipo
 global
-
-
 -78.549929,-0.299805,-78.450022,-0.100164
-
-poligono  1 
-
+poligono  1: Alex 
 -78.519888,-0.149774,-78.422213,-0.100164
-
-
-poligono  2
-
+poligono  2:Luis
 -78.519888,-0.200071,-78.449678,-0.148229
-
-
-poligono  3
-
+poligono  3:Boris
 -78.549929,-0.250024,-78.449678,-0.200071
-
-
-poligono  4
-
+poligono  4:Rodrigo
 -78.549929,-0.299805,-78.449678,-0.248479
