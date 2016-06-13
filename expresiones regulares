@@ -1,3 +1,5 @@
+#codigo creado por: Polanco Boris
+#fecha: 10 de junio del 2016
 limpiar los tweets
 created_at":([^,]+),"f[^j]*[^\[]+([^}]+)
 
