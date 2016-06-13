@@ -1,12 +1,14 @@
-#Cargamos las librerías necesarias para el anàlisis y construcciòn de mmapas
+#codigo creado por: Polanco Boris
+#fecha: 10 de junio del 2016
+#Cargamos las librerÃ­as necesarias para el anÃ lisis y construcciÃ²n de mmapas
 library(leaflet)#Esta libreria es para usar mapas de openstreetmap
-library(readxl)#Esta librerìa es para leer archivos de excel
-library(data.table)#Esta librerìa nos ayuda a trabajar con gran cantidad de informacion de manera mas rapida
+library(readxl)#Esta librerÃ¬a es para leer archivos de excel
+library(data.table)#Esta librerÃ¬a nos ayuda a trabajar con gran cantidad de informacion de manera mas rapida
 setwd("C:/Users/Usuario/Desktop")
-#Leemos el archivo hotspots.csv, este archivo contiene información de los hotspots municipales en la ciudad de quito
+#Leemos el archivo hotspots.csv, este archivo contiene informaciÃ³n de los hotspots municipales en la ciudad de quito
 wifi_quito<- data.frame(fread("hotspots.csv",colClasses = c("numeric","numeric","numeric","character","character","character")))
 
-#Generamos un mapa m, donde se señala los hotsposts en la ciudad de Quito
+#Generamos un mapa m, donde se seÃ±ala los hotsposts en la ciudad de Quito
 m <- leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
    addMarkers(lng=wifi_quito$Longitud[1:268], lat=wifi_quito$Latitud[1:268], popup=wifi_quito$Sector[1:268])
@@ -14,7 +16,7 @@ m
 #Leemos el archivo donde se encuentra 40000 tweets georefenreciados 
 tweets<-read_excel("tweets.xlsx")
 
-#####Generamos un mapa con la información de tales tweets
+#####Generamos un mapa con la informaciÃ³n de tales tweets
 
 m <- leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
@@ -25,8 +27,8 @@ m <- leaflet() %>%
 
 m
 
-####Función para calcular la distancia entre dos coordenadas.
-#cargamos el paquete geosphere que incluye una función para calcular la distancia entre dos coordenadas
+####FunciÃ³n para calcular la distancia entre dos coordenadas.
+#cargamos el paquete geosphere que incluye una funciÃ³n para calcular la distancia entre dos coordenadas
 
 library(geosphere)
 names(wifi_quito)
@@ -51,8 +53,8 @@ names(nrotw)<-c("Wifi.ID","Freq")
 wifi_quito<-merge(wifi_quito,nrotw,by="Wifi.ID")
 names(wifi_quito)
 
-#Mapa_FINAL: En este mapa generamos los hotspots donde se señala con circulos rojos los
-#hotspots con una menor recepción de tweets, (entre cero y 100) verde menor a 300, y azul mas de 300
+#Mapa_FINAL: En este mapa generamos los hotspots donde se seÃ±ala con circulos rojos los
+#hotspots con una menor recepciÃ³n de tweets, (entre cero y 100) verde menor a 300, y azul mas de 300
 
 m <- leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
