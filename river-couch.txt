@@ -1,13 +1,14 @@
-{"setting":{"index":{"number_of_shards":4,"number_of_replicas":3}}}
+#codigo creado por: Andrade Rodrigo 
+#fecha: 10 de junio del 2016
+#definicion del indice y su mapping 
+{"setting":{"index":{"number_of_shards":4,"number_of_replicas":3}},"mappings":{"dia":"string","hora":"string","coordenadas":{"latitud":"double",longitud:"double"}}}
 
-,"mappings":{"dia":"string","hora":"string","coordenadas":{"latitud":"double",longitud:"double"}}
-
-
+#comando para configurar river de elasticsearch
 curl -X PUT localhost:9200/_river/testindex2/_meta -d '{"type":"couchdb","couchdb":{"host":"localhost","port":5984,"db":"lotlan","filter":null},"index":{"index":"testindex","type":"coordenadas","bulk_size":"1000","bulk_timeout":"10ms"}}'
 
-
+#version preliminar del mapping 
 ,"mappings":{"dia":{"type":"string"},"hora":{"type":"string"},"coordenadas":{"properties":{"latitud":{"type":"double"},"longitud":{"type":"double"}}}}
-
+#version completa del mapping 
 {
   "coordenadas": {
     "properties": {
