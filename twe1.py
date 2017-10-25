@@ -13,10 +13,10 @@ import json
 
 ###API ########################
 #Credenciales de acceso a twitter
-ckey = "nZPXeBQmpn7lVh3k7RhfqdX9K"
-csecret = "uOsWTomsSntwHAz9vkXLcTASdmaW6yykWoxDQGSyT4yttlBLrx"
-atoken = "731096320363114496-cWWceoZ0OpeaMPHYanzDSFLi4FDIWgW"
-asecret = "ENS0HkrqCrhaFZX56AJloTYFigsvmNCyBQxk83szFaPmo"
+ckey = ""
+csecret = ""
+atoken = ""
+asecret = ""
 #####################################
 #creacion del listener
 class listener(StreamListener):
